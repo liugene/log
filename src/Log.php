@@ -7,7 +7,7 @@ class Log
     //保存日志存储大小
     static private $_log_size = 1048576;
 
-    static private $log_path;
+    static private $log_path = RUNTIME_PATH . 'log/';
 
     //设置日志保存大小
     public function setLogSize($size)
